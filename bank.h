@@ -1152,6 +1152,9 @@ void checking_record_day(int user_index){
                             }
                             money_number++;
                         }
+                        for(int m=0;m<10;m++){
+addMoney[0].money_arr[m]='\0';
+}
                         for (int l = 0; l <money_number ; l++) {
                             addMoney[0].money_arr[l]=db[user_index].trc[i].note[money_index];
                             money_index++;
